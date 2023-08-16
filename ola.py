@@ -90,11 +90,8 @@ def q12():
     print (f'O quadrado desse número é: {result}')
 
 def q13():
-    numero = float(input('Digite o seu saldo na poupança: '))
-
-    result = numero- 2/100
-
-    print (f'Seu saldo com o reajuste é: {result}')
+    saldo = float(input('Saldo R$: '))
+    print (f'Saldo com reajuste de 2% = R$ {saldo*1.02}')
 
 def q14():
     numero1 = float(input('Digite a base do retângulo: '))
@@ -103,5 +100,43 @@ def q14():
     result1 = numero1+numero2
     result2 = numero1*numero2
 
+    print (f'O perímetro desse retangulo é: {result1}')
+    print (f'O valor da área desse retangulo é: {result2}')
 
-q13()
+def q15(): 
+    valorprod = float(input('Digite o valor do produto: $ '))
+    desc = float(input('Digite o percentual do desconto: '))
+
+    valorfim = valorprod*desc/100
+
+    print (f'Desconto: R${valorfim}')
+    print (f'Valor final do produto: R${valorprod-valorfim}')
+
+def q16():
+    salario = float(input('Qual seu salario atual?: R$'))
+    reajuste = float(input('Qual é o valor do reajuste: '))
+
+    valorfim = salario*reajuste/100
+
+    print (f'Seu novo salario é: R${valorfim}')
+
+def q17():
+    celsius = float(input('Digite a temperatura em celcius: '))
+    fharen = float(input('Digite a temperatura em fahrenheit: '))
+
+    fharen = (9*celsius+160)/5
+    result = fharen
+
+    print (f'O valor da conversão é: {result}')
+
+def q18():
+    vtempo = float(input('Informe o tempo da viagem em horas: '))
+    velmedia = float(input('Informe a velocidade média em KM/H: '))
+    
+    vdist = vtempo*velmedia
+    litros = vdist/12
+
+    print (f'A distancia percorrida foi {vdist} e a quantidade de litros usada foi {litros}L')
+
+
+q18()
