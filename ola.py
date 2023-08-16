@@ -57,5 +57,51 @@ def q09():
     result = numero/4
 
     print (f'O 1/4 desse númmero é: {result}')
- 
-q09()
+
+def q10():
+    numero1 = float(input('Digite um número real: '))
+    numero2 = float(input('Digite um número real: '))
+    numero3 = float(input('Digite um número real: '))
+
+    valorfim = numero1+numero2+numero3
+    result = valorfim/3
+
+    print (f'A média aritmética desses números é: {result}')
+
+def q11():
+    numero1 = float(input('Digite um número real: '))
+    numero2 = float(input('Digite outro número real: '))
+
+    result1 = numero1+numero2 
+    result2 = numero1-numero2
+    result3 = numero1*numero2
+    result4 = numero1/numero2
+
+    print (f'A adição desses número é: {result1}')
+    print (f'A subtração desses números é: {result2}')
+    print (f'A multiplicação desses números é: {result3}')
+    print (f'A divisão desses números é: {result4}')
+
+def q12():
+    numero = float(input('Digite um número: '))
+
+    result = numero*numero
+
+    print (f'O quadrado desse número é: {result}')
+
+def q13():
+    numero = float(input('Digite o seu saldo na poupança: '))
+
+    result = numero- 2/100
+
+    print (f'Seu saldo com o reajuste é: {result}')
+
+def q14():
+    numero1 = float(input('Digite a base do retângulo: '))
+    numero2 = float(input('Digite a altura do retângulo: '))
+    
+    result1 = numero1+numero2
+    result2 = numero1*numero2
+
+
+q13()
