@@ -138,5 +138,49 @@ def q18():
 
     print (f'A distancia percorrida foi {vdist} e a quantidade de litros usada foi {litros}L')
 
+def q1l2():
+    n1 = float(input('Digite um número: '))
+    n2 = float(input('Digite um número: '))
 
-q18()
+    result = n1 + n2
+
+    if result > 10:
+        print (f'{result} é maior que 10')
+
+def q2l2():
+    n1 = float(input('Digite um número: '))
+    n2 = float(input('Digite um número: '))
+    
+    result = n1 + n2
+
+    if result > 20:
+        result = result + 8
+        print (f'{result}')
+    else: 
+        result <= 20
+        result = result -5
+        print (f'{result}')
+
+def q3l2():
+    n = float(input('Digite um número: '))
+
+    if n % 3 == 0:
+        print('é multiplo de 3')
+    else:
+        print('não é multiplo 3')
+
+def q4l2():
+    n = float(input('Digite um número: '))
+
+    if n % 5 == 0:
+        print('é divisivel por 5')
+    else:
+        print('não é divisivel por 5')
+
+def q4l2():
+    n = float(input('Digite um número: '))
+
+    
+
+q4l2()
+
